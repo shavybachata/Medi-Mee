@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 60%;
+   
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor :pointer ;
+    font-family: 'Roboto', sans-serif;
+    background-color: burlywood;
+}
+.nav_list{  
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.nav_list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav_list li a :hover{
+    color: grey;
+}
+
+.nav_list li a{
+    text-decoration: none;
+    color:black;
+    
+
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: hgugy solid gray;
+    border-radius: 9px;
+}
+    </style>
+</head>
+<body style="background-color:bisque;">
+    
+    <nav class="navbar">
+        <ul class="nav_list">
+            <div class="logo"><img src="logo.jpg" alt="logo"></div>
+            <li> <a href="home">Home</a> </li>
+            <li> <a href="home"> Email id  </a> </li>
+            <li> <a href="home"> Address </a> </li>
+            <li> <a href="home"> Contact Us </a> </li>
+
+        </ul>
+        <div class="rightNav">
+            <button class="btn-sm">Support Us</button>
+        </div>
+    </nav>
+    <h1>Medicine Donation Portal</h1>
+    <h2>Name of the Medicine : 
+    <textarea name="Name" id="Name" cols="35" rows="1.5"></textarea></h2>
+    
+   <p><h3>exp date <input type="date" name="exp date" id="exp date"></h3></p>
+   <a href="file:///C:/Users/ASUS'/OneDrive/Desktop/DONATE%20WEBSITE/thanks.html"><button style="background-color:rgba(54, 138, 110, 0.925);width: 150px; height: 50px; font-family: 'Times New Roman', Times, serif;align-items: center;font-weight: 300px;font-size: large;text-align: center;justify-content: center;margin-left: 40%; margin-bottom: 5%; border-radius: 15%;">PICK</button></a>
+</body>
+</html>
